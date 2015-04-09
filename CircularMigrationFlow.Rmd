@@ -1,0 +1,35 @@
+---
+title: "Circular Migration Flow Plot"
+author: "Martin Monkman"
+date: "Friday, April 03, 2015"
+output: html_document
+---
+
+##REFERENCES
+
+circlize package
+[https://github.com/jokergoo/circlize](https://github.com/jokergoo/circlize)
+
+World Cup - using circlize
+[http://blog.revolutionanalytics.com/2014/06/world-cup.html](http://blog.revolutionanalytics.com/2014/06/world-cup.html)
+
+[http://www.r-bloggers.com/circular-migration-flow-plots-in-r/](http://www.r-bloggers.com/circular-migration-flow-plots-in-r/)
+
+[http://stackoverflow.com/questions/24172010/is-there-a-way-to-make-nice-flow-maps-or-line-area-graphs-in-r](http://stackoverflow.com/questions/24172010/is-there-a-way-to-make-nice-flow-maps-or-line-area-graphs-in-r)
+
+Flowing Data - critique of state migration
+[http://junkcharts.typepad.com/junk_charts/2014/01/visualizing-movements-of-people.html](http://junkcharts.typepad.com/junk_charts/2014/01/visualizing-movements-of-people.html)
+
+
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
